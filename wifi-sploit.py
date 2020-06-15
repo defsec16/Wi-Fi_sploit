@@ -6,7 +6,7 @@ def clean():
 	except:
 		os.system('cls')
 clean()
-banners = random.randint(0,3)
+banners = random.randint(0,2)
 if banners == 0:
 	banner = ''' \u001b[32m
                           
@@ -22,7 +22,7 @@ if banners == 0:
                 ((((((((*               
                  (((((((             
 '''
-elif banners == 1:
+elif banners == 2:
 	banner = ''' \u001b[32m
 	 _    _ _       __ _             _       _ _   
 	| |  | (_)     / _(_)           | |     (_) |  
@@ -33,7 +33,7 @@ elif banners == 1:
 	                          | |                  
 	                          |_|                  
 	'''
-elif banners ==2:
+else:
 	banner = '''
 	|\          /\          /|
 	| \        /  \        / |
@@ -47,30 +47,7 @@ elif banners ==2:
 	   /      \    /      \\
 	  /        \  /        \\
 	 /          \/          \\ '''
-else:
-	banner = ''' \u001b[32m
 
-I8,        8        ,8I  88             ad88  88  
-`8b       d8b       d8'  ""            d8"    ""  
- "8,     ,8"8,     ,8"                 88         
-  Y8     8P Y8     8P    88          MM88MMM  88  
-  `8b   d8' `8b   d8'    88  aaaaaaaa  88     88  
-   `8a a8'   `8a a8'     88  """"""""  88     88  
-    `8a8'     `8a8'      88            88     88  
-     `8'       `8'       88            88     88  
-                                                  
-                                                  
-                                                  
-88        88                          88          
-88        88                          88          
-88        88                          88          
-88aaaaaaaa88  ,adPPYYba,   ,adPPYba,  88   ,d8    
-88""""""""88  ""     `Y8  a8"     ""  88 ,a8"     
-88        88  ,adPPPPP88  8b          8888[       
-88        88  88,    ,88  "8a,   ,aa  88`"Yba,    
-88        88  `"8bbdP"Y8   `"Ybbd8"'  88   `Y8a   
-                                                  
-                                                  '''
 print(banner)
 text = '''
 							\033[35m~coded by Alisher
@@ -84,7 +61,7 @@ text = '''
 print(text)
 wifi = int(input('\033[31mWiFiSploit\033[39m~#:'))
 def wifi99():
-	text = '''
+	text = '''  Не готова в плане разработки
 	Wifi parse он парсит пароль по названию точки wifi
 	Wifi passwords он показывает все названия и пароли от этих wifi.
 	к которему был подключен пк. '''
